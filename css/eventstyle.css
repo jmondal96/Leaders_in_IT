@@ -22,13 +22,13 @@ body {
   display: inline-block;
   width: 100%;
   color: rgb(255, 255, 255);
-  background-color: rgb(197, 44, 102);
+  background-color: rgb(9, 239, 115);
   padding: 5px;
   text-align: center;
   text-transform: uppercase;
 }
 .event-list > li:nth-child(even) > time {
-  background-color: rgb(165, 82, 167);
+  background-color: rgb(0, 0, 0);
 }
 .event-list > li > time > span {
   display: none;
@@ -68,7 +68,7 @@ body {
   list-style: none;
   margin: 10px 0px 0px;
   padding: 0px;
-  width: 100%;
+  width: 91%;
   text-align: center;
 }
 .event-list > li > .social > ul {
@@ -80,8 +80,8 @@ body {
   cursor: pointer;
   color: rgb(30, 30, 30);
   font-size: 11pt;
-  font-weight: 300;
-      padding: 3px 0px;
+  font-weight: 600;
+  padding: 3px 0px;
 }
   .event-list > li > .info > ul > li > a {
   display: block;
@@ -172,20 +172,21 @@ body {
   .event-list > li > .social {
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: 3px;
     display: block;
     width: 40px;
   }
       .event-list > li > .social > ul {
-          border-left: 1px solid rgb(230, 230, 230);
+          border-left: 2px dashed rgb(9, 239, 115);
       }
   .event-list > li > .social > ul > li {
     display: block;
-          padding: 0px;
+          padding: 0px 0px 20px 0px;
   }
   .event-list > li > .social > ul > li > a {
     display: block;
     width: 40px;
-    padding: 10px 0px 9px;
+    padding: 10px 0px;
+    padding-top: 10px;
   }
 }
