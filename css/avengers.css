@@ -3,14 +3,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-size: 16px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  font-family: 'Lato', sans-serif;
-}
-
 .wrapper {
   position: relative;
   width: 550px;
@@ -1157,23 +1149,4 @@ body {
     margin-left: -4.3em;
     clip: rect(-0.188em, 6.1em, 13.875em, 2.3em);
   }
-}
-.footer--love {
-  position: absolute;
-  right: 1.5rem;
-  bottom: 2.5rem;
-  font-size: 0.85rem;
-  font-family: 'Lato', sans-serif;
-  z-index: 9999;
-}
-.footer--love .love-heart {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42764/heart-smil.svg);
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-  margin: 0 5px 0 2px;
-  vertical-align: top;
-}
-.footer--love a {
-  color: #43abf0;
 }

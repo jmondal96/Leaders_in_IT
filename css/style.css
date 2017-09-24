@@ -52,3 +52,11 @@ h1 {
 .about_header {
     font-weight: 900;
 }
+
+.sponsors {
+    text-align: center;
+    background-color: white;
+}
+.sponsors img {
+    width:400px;
+}
