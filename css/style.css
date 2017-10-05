@@ -34,7 +34,8 @@ h1 {
     border: 2px solid #57d229;
     color: #ffffff;
     background-color: black;
-    top:50px;
+    position:relative;
+    top:125px;
     
 }
 
