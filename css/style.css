@@ -94,7 +94,6 @@ h1 {
 
 .footer {
     background-color: whitesmoke;
-    text-align: center;
     
 }
 
@@ -103,27 +102,35 @@ h1 {
     opacity: 0.7;
 }
 
+.icon_contact{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
 .fa-facebook-square{
     font-size:200px;
     color:#3b5998;
-    padding-left:30px; 
-    padding-right:30px;
+   
 }
 .fa-twitter-square{
     font-size:200px;
     color:#0084b4;
-    padding-left:30px; 
-    padding-right:30px;
+   
 }
 .fa-envelope-square{
     font-size:200px;
     color:deepskyblue;
-    padding-left:30px; 
-    padding-right:30px;
+    
+
 }
 .discord_icon{
-    position:relative;
-    top:-70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    
 }
 .discord_icon:hover{
     filter: alpha(opacity=70);
