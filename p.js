@@ -8,7 +8,7 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": "#00d1ff"
+      "value": "#40be12"
     },
     "shape": {
       "type": "edge",
