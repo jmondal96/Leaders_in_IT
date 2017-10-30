@@ -144,3 +144,10 @@ h1 {
     width:100%;
     
 }
+
+.mc {
+    width:500px;
+    position:relative;
+    margin: 0 auto;
+    padding-top:80px;
+}
